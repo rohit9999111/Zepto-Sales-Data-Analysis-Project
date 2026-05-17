@@ -2,6 +2,7 @@
 📖 Project Overview
 This project performs an end-to-end data analysis on real-world, industry-grade sales data from Zepto, a leading quick-commerce platform. The analysis processes over 200,000 sales records to extract actionable business insights regarding delivery performance, product trends, and geographical sales distribution.
 
+![image alt](https://github.com/rohit9999111/Zepto-Sales-Data-Analysis-Project/blob/616d636d56248270c9fe2ece53ace4188bd85b91/Screenshot%202026-05-17%20182827.png)
 
 
 🛠️ Tech Stack
