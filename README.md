@@ -9,6 +9,7 @@ Language: Python
 Libraries: - Pandas for data manipulation and cleaning.
 Matplotlib & Seaborn for data visualization.
 NumPy for numerical operations.
+
 📂 Dataset Description
 The analysis utilizes two primary datasets:
 
@@ -21,10 +22,12 @@ Real-world data is often messy. This project handles:
 Missing Values: Dropped nulls in critical categorical columns like city and delivery_status. For numerical gaps in delivery_time_mins, mean imputation was used to maintain data integrity.
 Duplicates: Identified and removed 216 duplicate records to prevent biased statistics.
 Formatting: Converted order_date to proper datetime objects for time-series analysis.
+
 2. Exploratory Data Analysis (EDA) 🔍
 Top Performers: Identified high-revenue products such as Handwash (Personal Care) and Paneer 200g (Dairy & Eggs).
 Geographical Analysis: Ranked cities by total sales, with Mumbai and Bangalore leading the revenue charts.
 Delivery Metrics: Calculated average delivery times across different cities to monitor service efficiency.
+
 3. Data Visualization 📈
 The project features a comprehensive 3x3 visualization grid showcasing:
 
@@ -32,10 +35,12 @@ Trends: Monthly sales growth throughout 2024.
 Distributions: Histograms of delivery times and pie charts of category-wise sales.
 Correlations: Scatter plots of quantity vs. total amount.
 Advanced Insights: A heatmap representing sales density by city and month.
+
 📊 Sample Insights
 Top Category: Personal Care leads in total sales amount (~23.4M).
 Delivery Efficiency: Average delivery time remains consistent across cities at approximately 26 minutes.
 Sales Peaks: December (2024-12) recorded the highest monthly sales trend.
+
 💻 How to Run
 Clone this repository.
 Ensure you have the datasets (zepto_sales (2).csv and zepto_products.csv) in the project directory.
