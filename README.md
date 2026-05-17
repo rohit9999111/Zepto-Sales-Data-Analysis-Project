@@ -19,7 +19,6 @@ zepto_products.csv: Provides metadata for products, including product_name, cate
 🚀 Key Features & Workflow
 1. Data Cleaning 🧼
 Real-world data is often messy. This project handles:
-
 Missing Values: Dropped nulls in critical categorical columns like city and delivery_status. For numerical gaps in delivery_time_mins, mean imputation was used to maintain data integrity.
 Duplicates: Identified and removed 216 duplicate records to prevent biased statistics.
 Formatting: Converted order_date to proper datetime objects for time-series analysis.
@@ -31,7 +30,6 @@ Delivery Metrics: Calculated average delivery times across different cities to m
 
 3. Data Visualization 📈
 The project features a comprehensive 3x3 visualization grid showcasing:
-
 Trends: Monthly sales growth throughout 2024.
 Distributions: Histograms of delivery times and pie charts of category-wise sales.
 Correlations: Scatter plots of quantity vs. total amount.
